@@ -1,5 +1,5 @@
 
-package curso_js;
+package curso_js.java;
 
 import java.util.Scanner;
 

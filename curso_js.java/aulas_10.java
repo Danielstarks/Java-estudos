@@ -1,7 +1,9 @@
 
-package curso_js;
+package curso_js.java;
 
 import java.util.Scanner;
+
+// Calculo da Area de uma circunferência.
 
 public class aulas_10 {
     

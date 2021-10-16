@@ -1,5 +1,5 @@
 
-package curso_js;
+package curso_js.java;
 
 
 public class aulas_01 {

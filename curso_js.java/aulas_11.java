@@ -1,5 +1,5 @@
 
-package curso_js;
+package curso_js.java;
 
 
 public class aulas_11 {
@@ -11,3 +11,4 @@ public class aulas_11 {
         System.out.println("");
     }
 }
+ 
