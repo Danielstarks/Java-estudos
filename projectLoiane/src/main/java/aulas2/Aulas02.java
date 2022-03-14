@@ -1,5 +1,5 @@
 
-package curso2Ativides;
+package aulas2;
 
 /**
  *

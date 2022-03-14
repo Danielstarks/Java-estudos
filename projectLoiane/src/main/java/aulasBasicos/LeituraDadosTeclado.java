@@ -1,8 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package curso2;
+package aulasBasicos;
+
+
 
 import java.util.Scanner;
 
@@ -14,8 +12,7 @@ public class LeituraDadosTeclado {
     
     public static void main(String[] args) {
         
-       Scanner scan = new Scanner(System.in);
-       
+       try (Scanner scan = new Scanner(System.in)) {
         System.out.println("Digite seu nome completo: ");
         String nomeCompleto = scan.nextLine();
         System.out.println("Seu nome completo é: "+ nomeCompleto);
@@ -27,6 +24,7 @@ public class LeituraDadosTeclado {
         System.out.println("Digite sua idade:");
         int idade = scan.nextInt();
         System.out.println("Sua idade é: " + idade + "anos!!");
+      }
         
        
     }

@@ -1,4 +1,3 @@
-
 package curso_js.java;
 
 import java.util.Scanner;
@@ -11,10 +10,10 @@ public class aulas_10 {
         
         
         final double PI = 3.14;
-         Scanner input = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
          
         System.out.println("Informe o valor do Raio ?");
-        double raio = input.nextDouble();
+        double raio = scan.nextDouble();
         
         double area = raio * raio * PI;
         
