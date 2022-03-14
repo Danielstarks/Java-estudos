@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Curso2;
+package curso2;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class SwitchCase {
     
-    public static void main(String[] args) {
+    public static void main(String[] args)Curso1 {
         
         Scanner scan = new Scanner(System.in);
         
